@@ -6,18 +6,20 @@ import Header from './Components/Header.jsx'
 import Slider from './Components/Slider.jsx'
 import ProductionHouse from './Components/ProductionHouse.jsx'
 import GenreMovieList from './Components/GenreMovieList.jsx'
+import Popup from './Components/Popup/Popup.jsx'
 
 function App() {
 
   return (
     <div className>
-      <Header />
+      {/* <Header />
       
       <Slider />
 
       <ProductionHouse/>
 
-      <GenreMovieList/>
+      <GenreMovieList/> */}
+      <Popup />
     </div>
   )
 }
