@@ -12,14 +12,13 @@ function App() {
 
   return (
     <div className>
-      {/* <Header />
+      <Header />
       
       <Slider />
 
       <ProductionHouse/>
 
-      <GenreMovieList/> */}
-      <Popup />
+      <GenreMovieList/>
     </div>
   )
 }

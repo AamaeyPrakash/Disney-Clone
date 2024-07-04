@@ -1,4 +1,5 @@
 import React from 'react'
+import Popup from './Popup/Popup';
 
 const IMAGE_BASE_URL="https://image.tmdb.org/t/p/original";
 
