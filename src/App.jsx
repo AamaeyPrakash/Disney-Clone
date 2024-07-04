@@ -19,6 +19,8 @@ function App() {
       <ProductionHouse/>
 
       <GenreMovieList/>
+
+      {/* <Popup /> */}
     </div>
   )
 }
