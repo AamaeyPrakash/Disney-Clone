@@ -8,11 +8,7 @@ function Popup() {
     }
     
     return (
-        <>
-            <button onClick={togglePopup} className='px-[10px] py-[20px] block m-auto text-base'>
-                Open
-            </button>
-            
+        <>         
             {popup && (
                 <div className='w-[1920px] h-[1920px] top-0 fixed'>
                     <div className='w-[1920px] h-[1920px] fixed bg-[#313131] bg-opacity-75'></div>
