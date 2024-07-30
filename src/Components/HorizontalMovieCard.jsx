@@ -18,9 +18,9 @@ function HorizontalMovieCard({ movie }) {
         <>
             {popup && (
                 <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75'>
-                    <div className='relative bg-gray-900 text-white p-6 rounded-lg max-w-xl w-full'>
+                    <div className='relative bg-gray-900 text-white p-6 rounded-lg max-w-[850px] my-20 max-h-[800px] overflow-y-scroll'>
                         <button className='absolute top-4 right-4 text-white bg-gray-800 rounded-full p-2'onClick={togglePopup}><HiMiniXMark className=''/></button>
-                        <img src={IMAGE_BASE_URL + movie.backdrop_path} alt={movie.title} className='w-full rounded-md mb-4'/>
+                        <img src={IMAGE_BASE_URL + movie.backdrop_path} alt={movie.title} className='h-[450px] object-cover rounded-md mb-4'/>
                         <div className='flex '>
                             <p className='pr-2'>{movie.vote_average}</p>
                             <p className='px-2'>{movie.release_date}</p>
